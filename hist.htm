@@ -1,0 +1,71 @@
+<script>
+function update_hist() {
+    if (window.obj == undefined) return; // otherwise this function will not be called after encountering error
+    var hist_data = [
+      {
+        x: [].concat(...window.obj.normalized_local_scores.slice()),
+        type: 'histogram',
+    	  histnorm: 'probability',
+    	  marker: {
+            color: 'rgb(0,0,100)',
+         },
+      }
+    ];
+
+    var hist_layout = {
+      height: 100,
+      width: 400,
+      autosize: true,
+      margin: {
+        l: 25,
+        r: 25,
+        b: 20,
+        t: 0, // tooltip bar
+        pad: 0
+      },
+    };
+
+    // https://plot.ly/javascript/axes/
+    if(!do_stretch()){
+      hist_layout['xaxis'] = {range: [0, 100]}
+    }
+    Plotly.newPlot('qualityHist', hist_data, hist_layout);
+    // $('#btn_im_map').trigger('mouseenter');
+    // $('#btn_im_map').trigger("click"); // mobile
+
+
+    // alert(obj.global);
+    // $('#score').text(obj.result);
+
+    // score = Math.pow(obj.result/100, 2)*100;
+    score = window.obj.normalized_global_score;
+    $('#score').width(score+'%').attr('aria-valuenow', score+'%');
+    // Predicted Quality Score: ' +
+    $('#score').text(score);
+    $('#h1_score').text(window.obj.category);
+    // to do, support multiple files
+   // https://plot.ly/javascript/colorscales/
+   //$('#imtest').height()  document.querySelector('#imtest').height
+   //
+}
+
+$(document).ready(function(){
+  // $("#imgUploaded").hover(hide_image, show_image);
+  // $('#heatmap').css('opacity', '0.8'); $('#imtest').css('opacity', '0.2')
+  $('#check_contrast_stretch').change(update_qmap);
+  update_hist();
+  on_update_qmap(update_hist);
+  // $('#check_contrast_stretch').prop( "checked", true );
+});
+</script>
+
+<div class="doublecolumn advancedcfg">
+
+  <div class="alert alert-light" role="alert">
+    Local score histogram and global score
+
+    <br/>
+    <div align="center" id='qualityHist' style="width:100%; height: 80px"></div>
+  <br/>
+</div>
+</div>
