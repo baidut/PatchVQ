@@ -7,12 +7,12 @@ Patch-VQ: ‘Patching Up’ the Video Quality Problem
 
 No-reference (NR) perceptual video quality assessment (VQA) is a complex, unsolved, and important problem to social and streaming media applications. Efficient and accurate video quality predictors are needed to monitor and guide the processing of billions of shared, often imperfect, user-generated content (UGC). Unfortunately, current NR models are limited in their prediction capabilities on real-world, "in-the-wild" UGC video data. To advance progress on this problem, we created the largest (by far) subjective video quality dataset, containing 39, 000 real-world distorted videos and 117, 000 space-time localized video patches ("v-patches"), and 5.5M human perceptual quality annotations. Using this, we created two unique NR-VQA models: (a) a local-to-global region-based NR VQA architecture (called PVQ) that learns to predict global video quality and achieves state-of-the-art performance on 3 UGC datasets, and (b) a first-of-a-kind space-time video quality mapping engine (called PVQ Mapper) that helps localize and visualize perceptual distortions in space and time. We will make the new database and prediction models available immediately following the review process.
 
-
 **Investigators**
-Zhenqiang Ying (<zqying@utexas.edu>) -- Graduate Student, Dept. of ECE, UT Austin
-Maniratnam Mandal (<mmandal@utexas.edu>) -- Graduate Student, Dept. of ECE, UT Austin
-Deepti Ghadiyaram (<deeptigp@fb.com>), Facebook Inc.
-Alan Bovik ([bovik@ece.utexas.edu](mailto:bovik@ece.utexas.edu)) -- Professor, Dept. of ECE, UT Austin
+
+* Zhenqiang Ying (<zqying@utexas.edu>) -- Graduate Student, Dept. of ECE, UT Austin
+* Maniratnam Mandal (<mmandal@utexas.edu>) -- Graduate Student, Dept. of ECE, UT Austin
+* Deepti Ghadiyaram (<deeptigp@fb.com>), Facebook Inc.
+* Alan Bovik ([bovik@ece.utexas.edu](mailto:bovik@ece.utexas.edu)) -- Professor, Dept. of ECE, UT Austin
 
 **Download**
 
@@ -21,10 +21,10 @@ Alan Bovik ([bovik@ece.utexas.edu](mailto:bovik@ece.utexas.edu)) -- Professor, D
 > - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "Study of 3D Virtual Reality Picture Quality," arXiv 2020.[[paper\]](https://arxiv.org/pdf/2011.13544.pdf)
 > - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "LIVE Large-Scale Social Video Quality (LSVQ) Database", Online:https://github.com/baidut/PatchVQ, 2020.
 
-**Please fill [THIS FORM ](https://forms.gle/ncpASqoJ6P6neE838) to download our database.**
+**Please fill [THIS FORM ](https://forms.gle/kmRH2fCuVuLAfruq5) to download our database.**
 
-* follow '[download_from_internetarchive.ipynb](https://colab.research.google.com/drive/1k_VUBnpZrio2lC-Uxec-WODP8rya-4mV)' to download Internet archive videos
-* download yfcc videos
+1. follow '[download_from_internetarchive.ipynb](https://colab.research.google.com/drive/1k_VUBnpZrio2lC-Uxec-WODP8rya-4mV)' to download Internet archive videos
+2. download yfcc videos
   * from [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) [Recommended]
   * OR  from [google drive](https://drive.google.com/drive/folders/17HE3KB9hlDDc8H3DTX60MggHinTSZ7Rk)
 
