@@ -38,7 +38,7 @@ Permission is hereby granted, without written agreement and without license or r
 
 The following papers are to be cited in the bibliography whenever the database is used as:
 
-> - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "Study of 3D Virtual Reality Picture Quality," arXiv 2020.[[paper\]](https://arxiv.org/pdf/2011.13544.pdf)
+> - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "Patch-VQ: ‘Patching Up’ the Video Quality Problem," arXiv 2020.[[paper\]](https://arxiv.org/pdf/2011.13544.pdf)
 > - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "LIVE Large-Scale Social Video Quality (LSVQ) Database", Online:https://github.com/baidut/PatchVQ, 2020.
 
 IN NO EVENT SHALL THE UNIVERSITY OF TEXAS AT AUSTIN BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS DATABASE AND ITS DOCUMENTATION, EVEN IF THE UNIVERSITY OF TEXAS AT AUSTIN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
