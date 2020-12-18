@@ -18,7 +18,7 @@ No-reference (NR) perceptual video quality assessment (VQA) is a complex, unsolv
 
 **We are making the LSVQ Database available to the research community free of charge. If you use this database in your research, we kindly ask that you reference our papers listed below:**
 
-> - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "Study of 3D Virtual Reality Picture Quality," arXiv 2020.[[paper\]](https://arxiv.org/pdf/2011.13544.pdf)
+> - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "Patch-VQ: ‘Patching Up’ the Video Quality Problem," arXiv 2020.[[paper\]](https://arxiv.org/pdf/2011.13544.pdf)
 > - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "LIVE Large-Scale Social Video Quality (LSVQ) Database", Online:https://github.com/baidut/PatchVQ, 2020.
 
 **Please fill [THIS FORM ](https://forms.gle/kmRH2fCuVuLAfruq5) to download our database.**
