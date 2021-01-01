@@ -31,6 +31,8 @@ No-reference (NR) perceptual video quality assessment (VQA) is a complex, unsolv
 3. download label files (coordinates and scores).
     * [labels_test_1080p.csv](https://github.com/baidut/PatchVQ/releases/download/v0.1/labels_test_1080p.csv) 1.05 MB
     * [labels_train_test.csv](https://github.com/baidut/PatchVQ/releases/download/v0.1/labels_train_test.csv) 10.8 MB (`is_test` column denotes if a video is in the train set or the test set )
+4. [optional] follow [this](https://colab.research.google.com/drive/1pMsLbLD8_5i2NV-l6o3alF3rmIsyzfKK?usp=sharing) crop patches from videos
+
 
 **Copyright Notice**
 
