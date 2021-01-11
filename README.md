@@ -1,6 +1,11 @@
 # PatchVQ
 Patch-VQ: ‘Patching Up’ the Video Quality Problem
 
+
+## Demo
+
+Please follow [this](https://colab.research.google.com/drive/16bwA2Rm3Hp5xNyeRnrzm1MrtEvKkiRRS) to test the Patch VQ model pretrained on the LSVQ database.
+
 ## Download LSVQ database
 
 **Description**
