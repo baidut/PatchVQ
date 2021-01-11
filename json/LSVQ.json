@@ -1,0 +1,13 @@
+{
+    "__name__": "LSVQ",
+    "dir": "/media/zq/DB/db/LSVQ/",
+    "csv_labels": "labels_train_test.csv",
+    "csv_labels_test_set": "labels_test_1080p.csv",
+    "folder": "jpg",
+    "fn_col": "name",
+    "label_col": ["mos", "mos_p1", "mos_p2", "mos_p3"],
+    "roi_col": [ ["left_vid", "top_vid", "right_vid", "bottom_vid"],
+                 ["left_p1", "top_p1", "right_p1", "bottom_p1"],
+                 ["left_p2", "top_p2", "right_p2", "bottom_p2"],
+                 ["left_p3", "top_p3", "right_p3", "bottom_p3"]]
+}

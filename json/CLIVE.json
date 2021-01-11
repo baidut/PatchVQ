@@ -1,0 +1,10 @@
+{
+    "__name__": "CLIVE",
+    "dir": "/media/zq/DB/db/CLIVE/",
+    "csv_labels": "labels.csv",
+    "folder": "Images",
+    "height": 500,
+    "width": 500,
+    "fn_col": "name",
+    "label_col": "mos"
+}

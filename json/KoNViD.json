@@ -1,0 +1,11 @@
+{
+    "__name__": "KoNViD",
+    "dir": "/media/zq/DB/db/KoNViD/",
+    "csv_labels": "labels.csv",
+    "folder": "jpg",
+    "fn_col": "name",
+    "label_col": "mos",
+    "width": "960",
+    "height": "540",
+    "raw_resolution": [540, 960]
+}

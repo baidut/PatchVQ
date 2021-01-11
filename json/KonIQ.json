@@ -1,0 +1,10 @@
+{
+    "__name__": "KonIQ",
+    "dir": "/media/zq/DB/db/KonIQ/",
+    "csv_labels": "labels.csv",
+    "folder": "1024x768",
+    "height": 768,
+    "width": 1024,
+    "fn_col": "image_name",
+    "label_col": "MOS_zscore"
+}

@@ -1,0 +1,7 @@
+{
+    "__name__": "LIVE_VQC",
+    "dir": "/media/zq/DB/db/LIVE_VQC/",
+    "csv_labels": "labels.csv",
+    "fn_col": "name",
+    "label_col": "mos"
+}

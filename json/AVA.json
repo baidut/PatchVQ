@@ -1,0 +1,13 @@
+{
+    "__name__": "AVA",
+    "dir": "/media/zq/DB/db/AVA/",
+    "csv_labels": "train_val_labels.csv",
+    "csv_labels_test_set": "test_labels.csv",
+    "folder": "images",
+    "fn_col": "ImageID",
+    "fn_suffix": ".jpg",
+    "pad": 800,
+    "label_col": "mu",
+    "label_col_p": ["p1", "p2", "p3", "p4", "p5", "p6", "p7", "p8", "p9", "p10"],
+    "label_range": [1, 10]
+}

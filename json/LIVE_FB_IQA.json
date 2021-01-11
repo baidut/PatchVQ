@@ -1,0 +1,16 @@
+{
+    "__name__": "LIVE_FB_IQA",
+    "dir": "/media/zq/DB/db/LIVE_FB_IQA/",
+    "csv_labels": "labels<=640_padded.csv",
+    "csv_labels_test_set": "labels>640.csv",
+    "test_bs": 1,
+    "fn_col": "name_image",
+    "label_col": ["mos_image", "mos_patch_1", "mos_patch_2", "mos_patch_3"],
+    "roi_col": ["left_image", "top_image", "right_image", "bottom_image",
+                  "left_patch_1", "top_patch_1", "right_patch_1", "bottom_patch_1",
+                  "left_patch_2", "top_patch_2", "right_patch_2", "bottom_patch_2",
+                  "left_patch_3", "top_patch_3", "right_patch_3", "bottom_patch_3"],
+    "folder": "images",
+    "raw_resolution": ["None", "None"],
+    "suff": ""
+}
