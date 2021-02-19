@@ -130,7 +130,7 @@ class RoIPoolModel(NoRoIPoolModel):
         # remove simply fc
         # one could try only modify the last layer
         super().__init__(**kwargs)
-        base_feat = self.body(torch.empty(1,3,640,640))
+        base_feat = self.body(torch.empty(1,3,2,640,640) if self.is_3d else torch.empty(1,3,640,640))
         scale = next_power_of_2(640// base_feat.size(-1))
         self.roi_pool = self.create_roi_pool(1/scale)
         logging.warning(f'roipool: size = {self.pool_size}, scale = 1/{scale}')
