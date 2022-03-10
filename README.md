@@ -1,6 +1,7 @@
 # PatchVQ
 Patch-VQ: ‘Patching Up’ the Video Quality Problem
 
+***Please email yingzhenqiang at gmail dot com for any questions. Thank you!***
 
 ## Demo
 
