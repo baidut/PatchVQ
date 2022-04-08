@@ -6,8 +6,30 @@ Patch-VQ: ‘Patching Up’ the Video Quality Problem
 ## Demo
 
 Please follow [this](https://colab.research.google.com/drive/16bwA2Rm3Hp5xNyeRnrzm1MrtEvKkiRRS) to test the Patch VQ model pretrained on the LSVQ database.
-Please follow [this](https://colab.research.google.com/drive/1-yyMJ5wjTqDbaR6dnojXF7h8rxl1tXvv?usp=sharing) to test our Patch VQ model on your database.
+Please follow [this](test_PVQ_on_new_datasets.ipynb) to test our Patch VQ model on your database.
 
+# Note
+
+* Due to the [breaking changes](https://github.com/fastai/fastai/blob/master/CHANGELOG.md#2018) in `fastai 2.0.18 --> 2.1`, the code is incompatible with the latest fastai! Please make sure the following versions are installed: 
+  ```
+  fastai 2.0.18
+  fastcore 1.2.5
+  torch 1.6.0
+  torchvision 0.7.0
+  ```
+
+​	a new version is still work-in-progress. See [here](https://github.com/baidut/fastiqa). 
+
+* To reproduce the results in the paper, make sure to use the pretrained weights provided here: 
+  * [RoIPoolModel-fit.10.bs.120.pth](https://github.com/baidut/PatchVQ/releases/download/v0.1/RoIPoolModel-fit.10.bs.120.pth) for PaQ2PiQ (don't use weights from other sources)
+  *  [fastai-r3d18_K_200ep.pth](https://github.com/baidut/PatchVQ/releases/download/v0.1/fastai-r3d18_K_200ep.pth) for resnet 3d (don't use pytorch builtin `r3d_18`)
+
+**Common Issues:**
+
+* `NameError: name '_C' is not defined`  --> `pip3 install Cython`
+* `RuntimeError: Could not infer dtype of PILImage` --> downgrade: pip install pillow==8.2
+* `AttributeError: module 'PIL.Image' has no attribute 'Resampling'` --> check your fastai and fastcore version
+* `ImportError: cannot import name 'default_generator' from 'torch._C' (unknown location)` --> `pip install torch==1.6.0 torchvision==0.7.0`
 
 ## Download LSVQ database
 
