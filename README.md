@@ -54,10 +54,7 @@ No-reference (NR) perceptual video quality assessment (VQA) is a complex, unsolv
 **Please fill [THIS FORM ](https://forms.gle/kmRH2fCuVuLAfruq5) to download our database.**
 
 1. follow '[download_from_internetarchive.ipynb](https://colab.research.google.com/drive/1Mz0xkd_c9F_NQCBOAWxO1LI_lE5sYMDx?usp=sharing)' to download Internet archive videos
-2. download YFCC videos
-    * from [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) [Recommended]
-    * OR  from [google drive](https://drive.google.com/drive/folders/1hTPH2PpfMSpbhRES3F9C0tDSMUQowIUJ?usp=sharing)
-
+2. download YFCC videos from [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) (The password will be sent to your email after you submit the request form.)
 3. download label files (coordinates and scores).
     * [labels_test_1080p.csv](https://github.com/baidut/PatchVQ/releases/download/v0.1/labels_test_1080p.csv) 1.05 MB
     * [labels_train_test.csv](https://github.com/baidut/PatchVQ/releases/download/v0.1/labels_train_test.csv) 10.8 MB (`is_test` column denotes if a video is in the train set or the test set )
