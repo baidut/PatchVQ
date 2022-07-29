@@ -5,7 +5,7 @@ Patch-VQ: ‘Patching Up’ the Video Quality Problem
 
 ## Demo
 
-Please follow [this](https://colab.research.google.com/drive/16bwA2Rm3Hp5xNyeRnrzm1MrtEvKkiRRS) to test the Patch VQ model pretrained on the LSVQ database.
+Please follow [this](https://colab.research.google.com/drive/1612Y7tiAgiutmt6rXHCjjKgNdJXJ5Hvo) to test the Patch VQ model pretrained on the LSVQ database.
 Please follow [this](test_PVQ_on_new_datasets.ipynb) to test our Patch VQ model on your database.
 
 # Note
@@ -53,12 +53,12 @@ No-reference (NR) perceptual video quality assessment (VQA) is a complex, unsolv
 
 **Please fill [THIS FORM ](https://forms.gle/kmRH2fCuVuLAfruq5) to download our database.**
 
-1. follow '[download_from_internetarchive.ipynb](https://colab.research.google.com/drive/1Mz0xkd_c9F_NQCBOAWxO1LI_lE5sYMDx?usp=sharing)' to download Internet archive videos
+1. follow '[download_from_internetarchive.ipynb](https://colab.research.google.com/drive/16C4cEe-DRxwMUnMS-PQzjzGPs2HfIX6a)' to download Internet archive videos
 2. download YFCC videos from [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) (The password will be sent to your email after you submit the request form.)
 3. download label files (coordinates and scores).
     * [labels_test_1080p.csv](https://github.com/baidut/PatchVQ/releases/download/v0.1/labels_test_1080p.csv) 1.05 MB
     * [labels_train_test.csv](https://github.com/baidut/PatchVQ/releases/download/v0.1/labels_train_test.csv) 10.8 MB (`is_test` column denotes if a video is in the train set or the test set )
-4. [optional] follow [this](https://colab.research.google.com/drive/1pMsLbLD8_5i2NV-l6o3alF3rmIsyzfKK?usp=sharing) crop patches from videos
+4. [optional] follow [this](https://drive.google.com/file/d/16B1UvoIE2iCzSt7moXRwfBGpB_nRy5qE/view?usp=sharing) crop patches from videos
 
 
 **Copyright Notice**
