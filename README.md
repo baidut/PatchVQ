@@ -51,7 +51,8 @@ No-reference (NR) perceptual video quality assessment (VQA) is a complex, unsolv
 > - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "Patch-VQ: ‘Patching Up’ the Video Quality Problem," arXiv 2020.[[paper\]](https://arxiv.org/pdf/2011.13544.pdf)
 > - Z. Ying, M. Mandal, D. Ghadiyaram and A.C. Bovik, "LIVE Large-Scale Social Video Quality (LSVQ) Database", Online:https://github.com/baidut/PatchVQ, 2020.
 
-**Please fill [THIS FORM ](https://forms.gle/kmRH2fCuVuLAfruq5) to download our database.**
+
+**Please fill [THIS FORM ](https://forms.gle/cdxArkHUuuqRCX4Z9) to download our database.**
 
 1. follow '[download_from_internetarchive.ipynb](https://colab.research.google.com/drive/16C4cEe-DRxwMUnMS-PQzjzGPs2HfIX6a)' to download Internet archive videos
 2. download YFCC videos from [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) (The password will be sent to your email after you submit the request form.)
