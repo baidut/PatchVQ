@@ -54,8 +54,10 @@ No-reference (NR) perceptual video quality assessment (VQA) is a complex, unsolv
 
 **Please fill [THIS FORM ](https://forms.gle/cdxArkHUuuqRCX4Z9) to download our database.**
 
-# Update 2025: We found some issues: automatic form reply was broken and some videos might not be accessible from their original sites (IA/YFCC) anymore. Sorry for the inconvience! You can directly download all videos (IA, YFCC) from the [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) instead of running the script that downloads from the original sites.  
-Please use this password to access the Box: `LiveLsvq@2021` and if any of the zip files is password-protected, please use: `LIVE2020` to unzip. Please feel free to contact me via yingzhenqiang-at-gmail-dot-com for downloading issues. 
+# Update 2026: We have moved the database to Globus ([link](https://app.globus.org/file-manager?origin_id=6aabbd19-bf45-4db4-b67e-67902484a0be&origin_path=%2F) ). To access the data you'll need to create an account using Gmail or Github. 
+
+~~# Update 2025: We found some issues: automatic form reply was broken and some videos might not be accessible from their original sites (IA/YFCC) anymore. Sorry for the inconvience! You can directly download all videos (IA, YFCC) from the [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) instead of running the script that downloads from the original sites.  
+Please use this password to access the Box: `LiveLsvq@2021` and if any of the zip files is password-protected, please use: `LIVE2020` to unzip. Please feel free to contact me via yingzhenqiang-at-gmail-dot-com for downloading issues.~~ 
 
 1. follow '[download_from_internetarchive.ipynb](https://colab.research.google.com/drive/16C4cEe-DRxwMUnMS-PQzjzGPs2HfIX6a)' to download Internet archive videos
 2. download YFCC videos from [Box](https://utexas.box.com/s/3x10cuh5m2r85gcjmatgagkpf2ekgqwo) (The password will be sent to your email after you submit the request form.)
